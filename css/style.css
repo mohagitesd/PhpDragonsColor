@@ -1,0 +1,25 @@
+header {
+    background-color: moccasin;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    
+}
+
+#container img{
+    width: 100%;
+    height: auto;
+    filter: blur(3px);
+}
+#container img:hover{
+    filter: blur(0px);
+    transition: 400ms;
+    border-radius: 100%;
+
+}
